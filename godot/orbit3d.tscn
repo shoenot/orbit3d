@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cr2jf2up7dx6n"]
+
+[ext_resource type="Script" uid="uid://d2g45phbtn5ys" path="res://main.gd" id="1_vf4qe"]
+[ext_resource type="Script" uid="uid://c1gsbyvdivl0s" path="res://camera.gd" id="2_03ub3"]
+
+[node name="Main" type="Node3D" unique_id=1800550761]
+script = ExtResource("1_vf4qe")
+
+[node name="GravitySim" type="GravitySim" parent="." unique_id=1549351449]
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1897719589]
+script = ExtResource("2_03ub3")
